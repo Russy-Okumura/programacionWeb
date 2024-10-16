@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title> Práctica 3 </title>
+   <meta charset = "UTF-8">
+   <meta name = "autor" = "Russell Sánchez">
+  </head>
+  <body>
+   <h1> Listas </h1>
+   <h2> Lista desordenada </h2>
+    <ul>
+     <li> Equipo De gestión </li> <h3> Lista ordenada </h3>
+      <ol type = "a">
+       <li> Angy </li>
+       <li> Texna </li>
+       <li> Cristal </li>
+      </ol>
+
+     <li> Equipo de Paola </li>
+      <ol type = "1" reversed>
+       <li> Galeana </li>
+       <li> Reyes </li>
+       <li> Osiris </li>
+      </ol>
+
+     <li> Equipo de rocio </li>  
+      <ol type = "i" start = "10">
+       <li> Gabriel </li>
+       <li> Isaias </li>
+       <li> Marcos </li>
+     </ol>
+   </ul> 
+  </body>
+ <html> 

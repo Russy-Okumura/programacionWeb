@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Russell Sánchez">
+    <title>Práctica 5</title>
+</head>
+
+<body>
+    <h1>Formulario de registro de Alumnos de Nuevo Ingreso</h1>
+
+    <form action="/submit" method="post">
+        <p>Nombre Completo <input type="text" name="nombre_completo"></p>
+        <p>Correo Electrónico <input type="email" name="correo_electronico"></p>
+        <p>Contraseña <input type="password" name="user_password"></p>
+
+        <p>Género:</p>
+        <input type="radio" name="genero" value="hombre"> Hombre <br>
+        <input type="radio" name="genero" value="mujer"> Mujer <br>
+        <input type="radio" name="genero" value="otro"> Otro <br>
+
+        <p>Intereses:</p>
+        <input type="checkbox" name="intereses" value="deportes"> Deportes <br>
+        <input type="checkbox" name="intereses" value="musica"> Música <br>
+        <input type="checkbox" name="intereses" value="tecnologia"> Tecnología <br>
+
+        <p>Carrera a la que aspiras: 
+            <select name="carrera"> 
+                <option value="sistemas">Ingeniería en sistemas computacionales</option>
+                <option value="civil">Ingeniería civil</option>
+                <option value="arquitectura">Arquitectura</option>
+                <option value="mecatronica">Ingeniería en Mecatrónica</option>   
+            </select>
+        </p>
+
+        <label for="comentarios">Comentarios adicionales:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="10" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Enviar Formulario">
+
+        <input type="reset" value="Restablecer Formulario">
+    </form>
+</body>
+</html>
